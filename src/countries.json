@@ -1,0 +1,1578 @@
+[
+  {
+    "code": "EX",
+    "name": "Example",
+    "capital": "Example City",
+    "region": "North Examplia",
+    "difficulty": 100,
+    "previousGuesses": [true, false, true, true, false]
+  },
+  {
+    "code": "gd",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "region": "Americas",
+    "difficulty": 52,
+    "previousGuesses": []
+  },
+  {
+    "code": "my",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "es",
+    "name": "Spain",
+    "capital": "Madrid",
+    "region": "Europe",
+    "difficulty": 10,
+    "previousGuesses": []
+  },
+  {
+    "code": "ml",
+    "name": "Mali",
+    "capital": "Bamako",
+    "region": "Africa",
+    "difficulty": 37,
+    "previousGuesses": []
+  },
+  {
+    "code": "ly",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "region": "Africa",
+    "difficulty": 32,
+    "previousGuesses": []
+  },
+  {
+    "code": "sb",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "region": "Oceania",
+    "difficulty": 51,
+    "previousGuesses": []
+  },
+  {
+    "code": "tn",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "region": "Africa",
+    "difficulty": 36,
+    "previousGuesses": []
+  },
+  {
+    "code": "sc",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "region": "Africa",
+    "difficulty": 47,
+    "previousGuesses": []
+  },
+  {
+    "code": "ge",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "region": "Asia",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "sy",
+    "name": "Syria",
+    "capital": "Damascus",
+    "region": "Asia",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "no",
+    "name": "Norway",
+    "capital": "Oslo",
+    "region": "Europe",
+    "difficulty": 14,
+    "previousGuesses": []
+  },
+  {
+    "code": "ph",
+    "name": "Philippines",
+    "capital": "Manila",
+    "region": "Asia",
+    "difficulty": 32,
+    "previousGuesses": []
+  },
+  {
+    "code": "is",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "region": "Europe",
+    "difficulty": 13,
+    "previousGuesses": []
+  },
+  {
+    "code": "mz",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "region": "Africa",
+    "difficulty": 45,
+    "previousGuesses": []
+  },
+  {
+    "code": "pw",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "region": "Oceania",
+    "difficulty": 56,
+    "previousGuesses": []
+  },
+  {
+    "code": "af",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "region": "Asia",
+    "difficulty": 23,
+    "previousGuesses": []
+  },
+  {
+    "code": "dj",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "region": "Africa",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "pe",
+    "name": "Peru",
+    "capital": "Lima",
+    "region": "Americas",
+    "difficulty": 18,
+    "previousGuesses": []
+  },
+  {
+    "code": "lu",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "region": "Europe",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "bi",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "region": "Africa",
+    "difficulty": 54,
+    "previousGuesses": []
+  },
+  {
+    "code": "gy",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "region": "Americas",
+    "difficulty": 39,
+    "previousGuesses": []
+  },
+  {
+    "code": "gb",
+    "name": "United Kingdom",
+    "capital": "London",
+    "region": "Europe",
+    "difficulty": 8,
+    "previousGuesses": []
+  },
+  {
+    "code": "bb",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "region": "Americas",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "ki",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "region": "Oceania",
+    "difficulty": 58,
+    "previousGuesses": []
+  },
+  {
+    "code": "za",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "difficulty": 14,
+    "previousGuesses": []
+  },
+  {
+    "code": "mn",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "region": "Asia",
+    "difficulty": 19,
+    "previousGuesses": []
+  },
+  {
+    "code": "cy",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "region": "Europe",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "mu",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "region": "Africa",
+    "difficulty": 49,
+    "previousGuesses": []
+  },
+  {
+    "code": "ag",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "region": "Americas",
+    "difficulty": 55,
+    "previousGuesses": []
+  },
+  {
+    "code": "mc",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "region": "Europe",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "kh",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "region": "Asia",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "sd",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "region": "Africa",
+    "difficulty": 27,
+    "previousGuesses": []
+  },
+  {
+    "code": "gn",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "region": "Africa",
+    "difficulty": 37,
+    "previousGuesses": []
+  },
+  {
+    "code": "si",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "region": "Europe",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "ir",
+    "name": "Iran",
+    "capital": "Tehran",
+    "region": "Asia",
+    "difficulty": 16,
+    "previousGuesses": []
+  },
+  {
+    "code": "se",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "region": "Europe",
+    "difficulty": 13,
+    "previousGuesses": []
+  },
+  {
+    "code": "bd",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "Asia",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "mv",
+    "name": "Maldives",
+    "capital": "Malé",
+    "region": "Asia",
+    "difficulty": 44,
+    "previousGuesses": []
+  },
+  {
+    "code": "gr",
+    "name": "Greece",
+    "capital": "Athens",
+    "region": "Europe",
+    "difficulty": 16,
+    "previousGuesses": []
+  },
+  {
+    "code": "ee",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "region": "Europe",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "mt",
+    "name": "Malta",
+    "capital": "Valletta",
+    "region": "Europe",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "lc",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "region": "Americas",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "rw",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "region": "Africa",
+    "difficulty": 40,
+    "previousGuesses": []
+  },
+  {
+    "code": "ru",
+    "name": "Russia",
+    "capital": "Moscow",
+    "region": "Europe",
+    "difficulty": 7,
+    "previousGuesses": []
+  },
+  {
+    "code": "by",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "region": "Europe",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "hr",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "region": "Europe",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "cl",
+    "name": "Chile",
+    "capital": "Santiago",
+    "region": "Americas",
+    "difficulty": 13,
+    "previousGuesses": []
+  },
+  {
+    "code": "am",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "region": "Asia",
+    "difficulty": 41,
+    "previousGuesses": []
+  },
+  {
+    "code": "ht",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "region": "Americas",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "cd",
+    "name": "DR Congo",
+    "capital": "Kinshasa",
+    "region": "Africa",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "iq",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "region": "Asia",
+    "difficulty": 17,
+    "previousGuesses": []
+  },
+  {
+    "code": "dk",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "region": "Europe",
+    "difficulty": 17,
+    "previousGuesses": []
+  },
+  {
+    "code": "ng",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "difficulty": 24,
+    "previousGuesses": []
+  },
+  {
+    "code": "mw",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "region": "Africa",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "co",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "region": "Americas",
+    "difficulty": 24,
+    "previousGuesses": []
+  },
+  {
+    "code": "gt",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "region": "Americas",
+    "difficulty": 36,
+    "previousGuesses": []
+  },
+  {
+    "code": "tt",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "region": "Americas",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "kp",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "region": "Asia",
+    "difficulty": 15,
+    "previousGuesses": []
+  },
+  {
+    "code": "tv",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "Oceania",
+    "difficulty": 56,
+    "previousGuesses": []
+  },
+  {
+    "code": "id",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "region": "Asia",
+    "difficulty": 23,
+    "previousGuesses": []
+  },
+  {
+    "code": "et",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "region": "Africa",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "bo",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "region": "Americas",
+    "difficulty": 25,
+    "previousGuesses": []
+  },
+  {
+    "code": "sl",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "region": "Africa",
+    "difficulty": 49,
+    "previousGuesses": []
+  },
+  {
+    "code": "me",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "region": "Europe",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "au",
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "difficulty": 9,
+    "previousGuesses": []
+  },
+  {
+    "code": "cg",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "region": "Africa",
+    "difficulty": 40,
+    "previousGuesses": []
+  },
+  {
+    "code": "bf",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "region": "Africa",
+    "difficulty": 54,
+    "previousGuesses": []
+  },
+  {
+    "code": "il",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "region": "Asia",
+    "difficulty": 23,
+    "previousGuesses": []
+  },
+  {
+    "code": "uy",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "region": "Americas",
+    "difficulty": 22,
+    "previousGuesses": []
+  },
+  {
+    "code": "ie",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "region": "Europe",
+    "difficulty": 14,
+    "previousGuesses": []
+  },
+  {
+    "code": "tw",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "region": "Asia",
+    "difficulty": 32,
+    "previousGuesses": []
+  },
+  {
+    "code": "bw",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "region": "Africa",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "zm",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "region": "Africa",
+    "difficulty": 40,
+    "previousGuesses": []
+  },
+  {
+    "code": "ga",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "region": "Africa",
+    "difficulty": 53,
+    "previousGuesses": []
+  },
+  {
+    "code": "fi",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "region": "Europe",
+    "difficulty": 15,
+    "previousGuesses": []
+  },
+  {
+    "code": "sv",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "region": "Americas",
+    "difficulty": 37,
+    "previousGuesses": []
+  },
+  {
+    "code": "us",
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "difficulty": 5,
+    "previousGuesses": []
+  },
+  {
+    "code": "mh",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "region": "Oceania",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "fj",
+    "name": "Fiji",
+    "capital": "Suva",
+    "region": "Oceania",
+    "difficulty": 34,
+    "previousGuesses": []
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "difficulty": 11,
+    "previousGuesses": []
+  },
+  {
+    "code": "bz",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "region": "Americas",
+    "difficulty": 38,
+    "previousGuesses": []
+  },
+  {
+    "code": "zw",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "region": "Africa",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "qa",
+    "name": "Qatar",
+    "capital": "Doha",
+    "region": "Asia",
+    "difficulty": 36,
+    "previousGuesses": []
+  },
+  {
+    "code": "ao",
+    "name": "Angola",
+    "capital": "Luanda",
+    "region": "Africa",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "it",
+    "name": "Italy",
+    "capital": "Rome",
+    "region": "Europe",
+    "difficulty": 11,
+    "previousGuesses": []
+  },
+  {
+    "code": "tg",
+    "name": "Togo",
+    "capital": "Lomé",
+    "region": "Africa",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "nz",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "region": "Oceania",
+    "difficulty": 14,
+    "previousGuesses": []
+  },
+  {
+    "code": "mm",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "difficulty": 39,
+    "previousGuesses": []
+  },
+  {
+    "code": "om",
+    "name": "Oman",
+    "capital": "Muscat",
+    "region": "Asia",
+    "difficulty": 30,
+    "previousGuesses": []
+  },
+  {
+    "code": "ws",
+    "name": "Samoa",
+    "capital": "Apia",
+    "region": "Oceania",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "bj",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "region": "Africa",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "kn",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "region": "Americas",
+    "difficulty": 49,
+    "previousGuesses": []
+  },
+  {
+    "code": "mr",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "region": "Africa",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "ba",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "region": "Europe",
+    "difficulty": 40,
+    "previousGuesses": []
+  },
+  {
+    "code": "sz",
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "region": "Africa",
+    "difficulty": 44,
+    "previousGuesses": []
+  },
+  {
+    "code": "va",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "region": "Europe",
+    "difficulty": 27,
+    "previousGuesses": []
+  },
+  {
+    "code": "fr",
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "difficulty": 9,
+    "previousGuesses": []
+  },
+  {
+    "code": "pl",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "difficulty": 17,
+    "previousGuesses": []
+  },
+  {
+    "code": "km",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "region": "Africa",
+    "difficulty": 57,
+    "previousGuesses": []
+  },
+  {
+    "code": "pg",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "region": "Oceania",
+    "difficulty": 36,
+    "previousGuesses": []
+  },
+  {
+    "code": "ke",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "region": "Africa",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "vn",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "difficulty": 24,
+    "previousGuesses": []
+  },
+  {
+    "code": "vu",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "region": "Oceania",
+    "difficulty": 56,
+    "previousGuesses": []
+  },
+  {
+    "code": "gw",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "region": "Africa",
+    "difficulty": 52,
+    "previousGuesses": []
+  },
+  {
+    "code": "ug",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "region": "Africa",
+    "difficulty": 39,
+    "previousGuesses": []
+  },
+  {
+    "code": "uz",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "region": "Asia",
+    "difficulty": 34,
+    "previousGuesses": []
+  },
+  {
+    "code": "py",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "region": "Americas",
+    "difficulty": 23,
+    "previousGuesses": []
+  },
+  {
+    "code": "ca",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "difficulty": 6,
+    "previousGuesses": []
+  },
+  {
+    "code": "th",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "difficulty": 24,
+    "previousGuesses": []
+  },
+  {
+    "code": "at",
+    "name": "Austria",
+    "capital": "Vienna",
+    "region": "Europe",
+    "difficulty": 21,
+    "previousGuesses": []
+  },
+  {
+    "code": "bh",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "region": "Asia",
+    "difficulty": 46,
+    "previousGuesses": []
+  },
+  {
+    "code": "np",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "region": "Asia",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "dz",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "region": "Africa",
+    "difficulty": 30,
+    "previousGuesses": []
+  },
+  {
+    "code": "kz",
+    "name": "Kazakhstan",
+    "capital": "Nur-Sultan",
+    "region": "Asia",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "la",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "region": "Asia",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "xk",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "region": "Europe",
+    "difficulty": 44,
+    "previousGuesses": []
+  },
+  {
+    "code": "ci",
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "region": "Africa",
+    "difficulty": 38,
+    "previousGuesses": []
+  },
+  {
+    "code": "td",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "region": "Africa",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "tm",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "region": "Asia",
+    "difficulty": 38,
+    "previousGuesses": []
+  },
+  {
+    "code": "br",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "Americas",
+    "difficulty": 9,
+    "previousGuesses": []
+  },
+  {
+    "code": "ro",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "region": "Europe",
+    "difficulty": 29,
+    "previousGuesses": []
+  },
+  {
+    "code": "ch",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "region": "Europe",
+    "difficulty": 21,
+    "previousGuesses": []
+  },
+  {
+    "code": "st",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "region": "Africa",
+    "difficulty": 60,
+    "previousGuesses": []
+  },
+  {
+    "code": "pk",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "difficulty": 20,
+    "previousGuesses": []
+  },
+  {
+    "code": "tr",
+    "name": "Turkey",
+    "capital": "Ankara",
+    "region": "Asia",
+    "difficulty": 15,
+    "previousGuesses": []
+  },
+  {
+    "code": "sr",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "region": "Americas",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "sg",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "region": "Asia",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "tz",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "region": "Africa",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "fm",
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "region": "Oceania",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "sk",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "region": "Europe",
+    "difficulty": 28,
+    "previousGuesses": []
+  },
+  {
+    "code": "al",
+    "name": "Albania",
+    "capital": "Tirana",
+    "region": "Europe",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "in",
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "difficulty": 11,
+    "previousGuesses": []
+  },
+  {
+    "code": "ni",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "region": "Americas",
+    "difficulty": 38,
+    "previousGuesses": []
+  },
+  {
+    "code": "jp",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "difficulty": 11,
+    "previousGuesses": []
+  },
+  {
+    "code": "ar",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "Americas",
+    "difficulty": 13,
+    "previousGuesses": []
+  },
+  {
+    "code": "cv",
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "region": "Africa",
+    "difficulty": 54,
+    "previousGuesses": []
+  },
+  {
+    "code": "md",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "region": "Europe",
+    "difficulty": 41,
+    "previousGuesses": []
+  },
+  {
+    "code": "pa",
+    "name": "Panama",
+    "capital": "Panama City",
+    "region": "Americas",
+    "difficulty": 26,
+    "previousGuesses": []
+  },
+  {
+    "code": "to",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "region": "Oceania",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "vc",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "region": "Americas",
+    "difficulty": 53,
+    "previousGuesses": []
+  },
+  {
+    "code": "cz",
+    "name": "Czechia",
+    "capital": "Prague",
+    "region": "Europe",
+    "difficulty": 26,
+    "previousGuesses": []
+  },
+  {
+    "code": "mg",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "Africa",
+    "difficulty": 19,
+    "previousGuesses": []
+  },
+  {
+    "code": "be",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "region": "Europe",
+    "difficulty": 22,
+    "previousGuesses": []
+  },
+  {
+    "code": "hu",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "region": "Europe",
+    "difficulty": 27,
+    "previousGuesses": []
+  },
+  {
+    "code": "do",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "region": "Americas",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "eg",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "difficulty": 14,
+    "previousGuesses": []
+  },
+  {
+    "code": "nr",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "region": "Oceania",
+    "difficulty": 59,
+    "previousGuesses": []
+  },
+  {
+    "code": "cm",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "region": "Africa",
+    "difficulty": 44,
+    "previousGuesses": []
+  },
+  {
+    "code": "jm",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "region": "Americas",
+    "difficulty": 26,
+    "previousGuesses": []
+  },
+  {
+    "code": "sa",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "Asia",
+    "difficulty": 22,
+    "previousGuesses": []
+  },
+  {
+    "code": "az",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "region": "Asia",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "jo",
+    "name": "Jordan",
+    "capital": "Amman",
+    "region": "Asia",
+    "difficulty": 30,
+    "previousGuesses": []
+  },
+  {
+    "code": "lt",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "region": "Europe",
+    "difficulty": 28,
+    "previousGuesses": []
+  },
+  {
+    "code": "gq",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "region": "Africa",
+    "difficulty": 51,
+    "previousGuesses": []
+  },
+  {
+    "code": "cr",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "region": "Americas",
+    "difficulty": 32,
+    "previousGuesses": []
+  },
+  {
+    "code": "cu",
+    "name": "Cuba",
+    "capital": "Havana",
+    "region": "Americas",
+    "difficulty": 20,
+    "previousGuesses": []
+  },
+  {
+    "code": "dm",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "region": "Americas",
+    "difficulty": 31,
+    "previousGuesses": []
+  },
+  {
+    "code": "cf",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "region": "Africa",
+    "difficulty": 40,
+    "previousGuesses": []
+  },
+  {
+    "code": "na",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "region": "Africa",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "rs",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "region": "Europe",
+    "difficulty": 34,
+    "previousGuesses": []
+  },
+  {
+    "code": "kw",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "region": "Asia",
+    "difficulty": 39,
+    "previousGuesses": []
+  },
+  {
+    "code": "ne",
+    "name": "Niger",
+    "capital": "Niamey",
+    "region": "Africa",
+    "difficulty": 21,
+    "previousGuesses": []
+  },
+  {
+    "code": "sm",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "region": "Europe",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "ua",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "region": "Europe",
+    "difficulty": 22,
+    "previousGuesses": []
+  },
+  {
+    "code": "bt",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "region": "Asia",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "ye",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "region": "Asia",
+    "difficulty": 28,
+    "previousGuesses": []
+  },
+  {
+    "code": "ve",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "region": "Americas",
+    "difficulty": 28,
+    "previousGuesses": []
+  },
+  {
+    "code": "ma",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "region": "Africa",
+    "difficulty": 23,
+    "previousGuesses": []
+  },
+  {
+    "code": "bn",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "region": "Asia",
+    "difficulty": 50,
+    "previousGuesses": []
+  },
+  {
+    "code": "sn",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "region": "Africa",
+    "difficulty": 44,
+    "previousGuesses": []
+  },
+  {
+    "code": "ss",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "region": "Africa",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "nl",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "region": "Europe",
+    "difficulty": 22,
+    "previousGuesses": []
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "Europe",
+    "difficulty": 42,
+    "previousGuesses": []
+  },
+  {
+    "code": "ad",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "region": "Europe",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "lb",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "region": "Asia",
+    "difficulty": 38,
+    "previousGuesses": []
+  },
+  {
+    "code": "lv",
+    "name": "Latvia",
+    "capital": "Riga",
+    "region": "Europe",
+    "difficulty": 28,
+    "previousGuesses": []
+  },
+  {
+    "code": "mk",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "region": "Europe",
+    "difficulty": 39,
+    "previousGuesses": []
+  },
+  {
+    "code": "pt",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europe",
+    "difficulty": 13,
+    "previousGuesses": []
+  },
+  {
+    "code": "mx",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "region": "Americas",
+    "difficulty": 7,
+    "previousGuesses": []
+  },
+  {
+    "code": "bs",
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "region": "Americas",
+    "difficulty": 34,
+    "previousGuesses": []
+  },
+  {
+    "code": "cn",
+    "name": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "difficulty": 9,
+    "previousGuesses": []
+  },
+  {
+    "code": "kg",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "region": "Asia",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "gm",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "region": "Africa",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "tl",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "region": "Asia",
+    "difficulty": 53,
+    "previousGuesses": []
+  },
+  {
+    "code": "er",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "region": "Africa",
+    "difficulty": 48,
+    "previousGuesses": []
+  },
+  {
+    "code": "tj",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "region": "Asia",
+    "difficulty": 45,
+    "previousGuesses": []
+  },
+  {
+    "code": "lk",
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "region": "Asia",
+    "difficulty": 30,
+    "previousGuesses": []
+  },
+  {
+    "code": "bg",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "region": "Europe",
+    "difficulty": 34,
+    "previousGuesses": []
+  },
+  {
+    "code": "ls",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "region": "Africa",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "kr",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "region": "Asia",
+    "difficulty": 15,
+    "previousGuesses": []
+  },
+  {
+    "code": "so",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "region": "Africa",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "gh",
+    "name": "Ghana",
+    "capital": "Accra",
+    "region": "Africa",
+    "difficulty": 35,
+    "previousGuesses": []
+  },
+  {
+    "code": "lr",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "region": "Africa",
+    "difficulty": 43,
+    "previousGuesses": []
+  },
+  {
+    "code": "ae",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "region": "Asia",
+    "difficulty": 27,
+    "previousGuesses": []
+  },
+  {
+    "code": "hn",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "Americas",
+    "difficulty": 33,
+    "previousGuesses": []
+  },
+  {
+    "code": "ec",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "region": "Americas",
+    "difficulty": 29,
+    "previousGuesses": []
+  }
+]
