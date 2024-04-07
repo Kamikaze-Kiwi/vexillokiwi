@@ -6,6 +6,12 @@
   let currentCountry = countries[0];
   let currentGuess = '';
 
+  let settingsSpan: HTMLSpanElement;
+  let settingsMenu: HTMLDivElement;
+  let settingsMenuExpanded = false;
+
+  
+
   let lastGuess : {
     correct: boolean,
     country: string,
@@ -61,25 +67,49 @@
     });
   }
 
-  function OpenSettings() {
+  function ToggleSettings() {
     SpinSettingsGear();
+
+    if (settingsMenu.classList.contains('expand')){
+      settingsMenu.classList.remove('expand');
+      setTimeout(() => { settingsMenu.classList.add('collapse'); }, 1);
+      settingsMenuExpanded = false;
+    } else {
+      settingsMenu.classList.remove('collapse');
+      setTimeout(() => { settingsMenu.classList.add('expand'); }, 1);
+      settingsMenuExpanded = true;
+    }
   }
 
   function SpinSettingsGear() {
-    let settingsSpan = document.getElementById('settingsgear') as HTMLElement;
-    settingsSpan.classList.add('spin');
-    setTimeout(() => { settingsSpan.classList.remove('spin'); }, 1000);
+    settingsSpan.classList.remove('spin');
+    setTimeout(() => { settingsSpan.classList.add('spin'); }, 1);
   }
 </script>
 
 <main>
+  {#if settingsMenuExpanded}
+   <!-- svelte-ignore a11y-click-events-have-key-events -->
+   <!-- svelte-ignore a11y-no-static-element-interactions -->
+   <div style="z-index: 0; position: absolute; height: 100vh; width: 100vw; background-color: transparent" on:click={ToggleSettings}></div>
+  {/if}
+
   <div id="header">
     <div id="settingscontainer">
-      <button id="settingsgearcontainer" on:click={OpenSettings}>
+      <button id="settingsgearcontainer" on:click={ToggleSettings}>
         <span>
-          <i id="settingsgear" class="bi bi-gear"></i>
+          <i id="settingsgear" class="bi bi-gear" bind:this={settingsSpan}></i>
         </span>
       </button>
+      <div id="settingsmenu" bind:this={settingsMenu} style="height: 0px; padding: 0 0; border: 0">
+        <h1>Settings</h1>
+        <div class="settingsitem">
+          <label>
+            Show correct answers
+            <input type="checkbox" />
+          </label>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -150,13 +180,27 @@
   display: flex;
 }
 
+#settingsgearcontainer {
+  z-index: 2;
+}
+
 #settingscontainer {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
   margin: 1%;
+  position: relative;
+}
+
+#settingsmenu {
+  background-color: #0f0f0f;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
 }
 
 .correct {
@@ -183,5 +227,9 @@
   flex-direction: column;
   align-items: center;
   margin: 1%;
+}
+
+.settingsitem label {
+  color: white;
 }
 </style>
