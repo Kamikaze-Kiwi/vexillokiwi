@@ -5,14 +5,7 @@
     "capital": "Example City",
     "region": "North Examplia",
     "difficulty": 100,
-    "previousGuesses": [true, false, true, true, false],
-    "hints": [
-      {
-        "condition": "Incorrect entry",
-        "text": "Incorrect hint text here",
-        "flags": ["EX", "IE"]
-      }
-    ]
+    "previousGuesses": [true, false, true, true, false]
   },
   {
     "code": "gd",
@@ -20,8 +13,7 @@
     "capital": "St. George's",
     "region": "Americas",
     "difficulty": 52,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "my",
@@ -29,8 +21,7 @@
     "capital": "Kuala Lumpur",
     "region": "Asia",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "es",
@@ -38,8 +29,7 @@
     "capital": "Madrid",
     "region": "Europe",
     "difficulty": 10,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ml",
@@ -47,8 +37,7 @@
     "capital": "Bamako",
     "region": "Africa",
     "difficulty": 37,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ly",
@@ -56,8 +45,7 @@
     "capital": "Tripoli",
     "region": "Africa",
     "difficulty": 32,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sb",
@@ -65,8 +53,7 @@
     "capital": "Honiara",
     "region": "Oceania",
     "difficulty": 51,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tn",
@@ -74,8 +61,7 @@
     "capital": "Tunis",
     "region": "Africa",
     "difficulty": 36,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sc",
@@ -83,8 +69,7 @@
     "capital": "Victoria",
     "region": "Africa",
     "difficulty": 47,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ge",
@@ -92,8 +77,7 @@
     "capital": "Tbilisi",
     "region": "Asia",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sy",
@@ -101,8 +85,7 @@
     "capital": "Damascus",
     "region": "Asia",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "no",
@@ -110,8 +93,7 @@
     "capital": "Oslo",
     "region": "Europe",
     "difficulty": 14,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ph",
@@ -119,8 +101,7 @@
     "capital": "Manila",
     "region": "Asia",
     "difficulty": 32,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "is",
@@ -128,8 +109,7 @@
     "capital": "Reykjavik",
     "region": "Europe",
     "difficulty": 13,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mz",
@@ -137,8 +117,7 @@
     "capital": "Maputo",
     "region": "Africa",
     "difficulty": 45,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pw",
@@ -146,8 +125,7 @@
     "capital": "Ngerulmud",
     "region": "Oceania",
     "difficulty": 56,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "af",
@@ -155,8 +133,7 @@
     "capital": "Kabul",
     "region": "Asia",
     "difficulty": 23,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "dj",
@@ -164,8 +141,7 @@
     "capital": "Djibouti",
     "region": "Africa",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pe",
@@ -173,8 +149,7 @@
     "capital": "Lima",
     "region": "Americas",
     "difficulty": 18,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lu",
@@ -182,8 +157,7 @@
     "capital": "Luxembourg",
     "region": "Europe",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bi",
@@ -191,8 +165,7 @@
     "capital": "Gitega",
     "region": "Africa",
     "difficulty": 54,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gy",
@@ -200,8 +173,7 @@
     "capital": "Georgetown",
     "region": "Americas",
     "difficulty": 39,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gb",
@@ -209,8 +181,7 @@
     "capital": "London",
     "region": "Europe",
     "difficulty": 8,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bb",
@@ -218,8 +189,7 @@
     "capital": "Bridgetown",
     "region": "Americas",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ki",
@@ -227,8 +197,7 @@
     "capital": "South Tarawa",
     "region": "Oceania",
     "difficulty": 58,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "za",
@@ -236,8 +205,7 @@
     "capital": "Pretoria",
     "region": "Africa",
     "difficulty": 14,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mn",
@@ -245,8 +213,7 @@
     "capital": "Ulan Bator",
     "region": "Asia",
     "difficulty": 19,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cy",
@@ -254,8 +221,7 @@
     "capital": "Nicosia",
     "region": "Europe",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mu",
@@ -263,8 +229,7 @@
     "capital": "Port Louis",
     "region": "Africa",
     "difficulty": 49,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ag",
@@ -272,8 +237,7 @@
     "capital": "Saint John's",
     "region": "Americas",
     "difficulty": 55,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mc",
@@ -281,8 +245,7 @@
     "capital": "Monaco",
     "region": "Europe",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kh",
@@ -290,8 +253,7 @@
     "capital": "Phnom Penh",
     "region": "Asia",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sd",
@@ -299,8 +261,7 @@
     "capital": "Khartoum",
     "region": "Africa",
     "difficulty": 27,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gn",
@@ -308,8 +269,7 @@
     "capital": "Conakry",
     "region": "Africa",
     "difficulty": 37,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "si",
@@ -317,8 +277,7 @@
     "capital": "Ljubljana",
     "region": "Europe",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ir",
@@ -326,8 +285,7 @@
     "capital": "Tehran",
     "region": "Asia",
     "difficulty": 16,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "se",
@@ -335,8 +293,7 @@
     "capital": "Stockholm",
     "region": "Europe",
     "difficulty": 13,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bd",
@@ -344,8 +301,7 @@
     "capital": "Dhaka",
     "region": "Asia",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mv",
@@ -353,8 +309,7 @@
     "capital": "Malé",
     "region": "Asia",
     "difficulty": 44,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gr",
@@ -362,8 +317,7 @@
     "capital": "Athens",
     "region": "Europe",
     "difficulty": 16,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ee",
@@ -371,8 +325,7 @@
     "capital": "Tallinn",
     "region": "Europe",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mt",
@@ -380,8 +333,7 @@
     "capital": "Valletta",
     "region": "Europe",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lc",
@@ -389,8 +341,7 @@
     "capital": "Castries",
     "region": "Americas",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "rw",
@@ -398,8 +349,7 @@
     "capital": "Kigali",
     "region": "Africa",
     "difficulty": 40,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ru",
@@ -407,8 +357,7 @@
     "capital": "Moscow",
     "region": "Europe",
     "difficulty": 7,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "by",
@@ -416,8 +365,7 @@
     "capital": "Minsk",
     "region": "Europe",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "hr",
@@ -425,8 +373,7 @@
     "capital": "Zagreb",
     "region": "Europe",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cl",
@@ -434,8 +381,7 @@
     "capital": "Santiago",
     "region": "Americas",
     "difficulty": 13,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "am",
@@ -443,8 +389,7 @@
     "capital": "Yerevan",
     "region": "Asia",
     "difficulty": 41,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ht",
@@ -452,8 +397,7 @@
     "capital": "Port-au-Prince",
     "region": "Americas",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cd",
@@ -461,8 +405,7 @@
     "capital": "Kinshasa",
     "region": "Africa",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "iq",
@@ -470,8 +413,7 @@
     "capital": "Baghdad",
     "region": "Asia",
     "difficulty": 17,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "dk",
@@ -479,8 +421,7 @@
     "capital": "Copenhagen",
     "region": "Europe",
     "difficulty": 17,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ng",
@@ -488,8 +429,7 @@
     "capital": "Abuja",
     "region": "Africa",
     "difficulty": 24,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mw",
@@ -497,8 +437,7 @@
     "capital": "Lilongwe",
     "region": "Africa",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "co",
@@ -506,8 +445,7 @@
     "capital": "Bogotá",
     "region": "Americas",
     "difficulty": 24,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gt",
@@ -515,8 +453,7 @@
     "capital": "Guatemala City",
     "region": "Americas",
     "difficulty": 36,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tt",
@@ -524,8 +461,7 @@
     "capital": "Port of Spain",
     "region": "Americas",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kp",
@@ -533,8 +469,7 @@
     "capital": "Pyongyang",
     "region": "Asia",
     "difficulty": 15,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tv",
@@ -542,8 +477,7 @@
     "capital": "Funafuti",
     "region": "Oceania",
     "difficulty": 56,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "id",
@@ -551,8 +485,7 @@
     "capital": "Jakarta",
     "region": "Asia",
     "difficulty": 23,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "et",
@@ -560,8 +493,7 @@
     "capital": "Addis Ababa",
     "region": "Africa",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bo",
@@ -569,8 +501,7 @@
     "capital": "Sucre",
     "region": "Americas",
     "difficulty": 25,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sl",
@@ -578,8 +509,7 @@
     "capital": "Freetown",
     "region": "Africa",
     "difficulty": 49,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "me",
@@ -587,8 +517,7 @@
     "capital": "Podgorica",
     "region": "Europe",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "au",
@@ -596,8 +525,7 @@
     "capital": "Canberra",
     "region": "Oceania",
     "difficulty": 9,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cg",
@@ -605,8 +533,7 @@
     "capital": "Brazzaville",
     "region": "Africa",
     "difficulty": 40,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bf",
@@ -614,8 +541,7 @@
     "capital": "Ouagadougou",
     "region": "Africa",
     "difficulty": 54,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "il",
@@ -623,8 +549,7 @@
     "capital": "Jerusalem",
     "region": "Asia",
     "difficulty": 23,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "uy",
@@ -632,8 +557,7 @@
     "capital": "Montevideo",
     "region": "Americas",
     "difficulty": 22,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ie",
@@ -641,8 +565,7 @@
     "capital": "Dublin",
     "region": "Europe",
     "difficulty": 14,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tw",
@@ -650,8 +573,7 @@
     "capital": "Taipei",
     "region": "Asia",
     "difficulty": 32,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bw",
@@ -659,8 +581,7 @@
     "capital": "Gaborone",
     "region": "Africa",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "zm",
@@ -668,8 +589,7 @@
     "capital": "Lusaka",
     "region": "Africa",
     "difficulty": 40,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ga",
@@ -677,8 +597,7 @@
     "capital": "Libreville",
     "region": "Africa",
     "difficulty": 53,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "fi",
@@ -686,8 +605,7 @@
     "capital": "Helsinki",
     "region": "Europe",
     "difficulty": 15,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sv",
@@ -695,8 +613,7 @@
     "capital": "San Salvador",
     "region": "Americas",
     "difficulty": 37,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "us",
@@ -704,8 +621,7 @@
     "capital": "Washington, D.C.",
     "region": "Americas",
     "difficulty": 5,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mh",
@@ -713,8 +629,7 @@
     "capital": "Majuro",
     "region": "Oceania",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "fj",
@@ -722,8 +637,7 @@
     "capital": "Suva",
     "region": "Oceania",
     "difficulty": 34,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "de",
@@ -731,8 +645,7 @@
     "capital": "Berlin",
     "region": "Europe",
     "difficulty": 11,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bz",
@@ -740,8 +653,7 @@
     "capital": "Belmopan",
     "region": "Americas",
     "difficulty": 38,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "zw",
@@ -749,8 +661,7 @@
     "capital": "Harare",
     "region": "Africa",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "qa",
@@ -758,8 +669,7 @@
     "capital": "Doha",
     "region": "Asia",
     "difficulty": 36,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ao",
@@ -767,8 +677,7 @@
     "capital": "Luanda",
     "region": "Africa",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "it",
@@ -776,8 +685,7 @@
     "capital": "Rome",
     "region": "Europe",
     "difficulty": 11,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tg",
@@ -785,8 +693,7 @@
     "capital": "Lomé",
     "region": "Africa",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "nz",
@@ -794,8 +701,7 @@
     "capital": "Wellington",
     "region": "Oceania",
     "difficulty": 14,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mm",
@@ -803,8 +709,7 @@
     "capital": "Naypyidaw",
     "region": "Asia",
     "difficulty": 39,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "om",
@@ -812,8 +717,7 @@
     "capital": "Muscat",
     "region": "Asia",
     "difficulty": 30,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ws",
@@ -821,8 +725,7 @@
     "capital": "Apia",
     "region": "Oceania",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bj",
@@ -830,8 +733,7 @@
     "capital": "Porto-Novo",
     "region": "Africa",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kn",
@@ -839,8 +741,7 @@
     "capital": "Basseterre",
     "region": "Americas",
     "difficulty": 49,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mr",
@@ -848,8 +749,7 @@
     "capital": "Nouakchott",
     "region": "Africa",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ba",
@@ -857,8 +757,7 @@
     "capital": "Sarajevo",
     "region": "Europe",
     "difficulty": 40,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sz",
@@ -866,8 +765,7 @@
     "capital": "Mbabane",
     "region": "Africa",
     "difficulty": 44,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "va",
@@ -875,8 +773,7 @@
     "capital": "Vatican City",
     "region": "Europe",
     "difficulty": 27,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "fr",
@@ -884,8 +781,7 @@
     "capital": "Paris",
     "region": "Europe",
     "difficulty": 9,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pl",
@@ -893,8 +789,7 @@
     "capital": "Warsaw",
     "region": "Europe",
     "difficulty": 17,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "km",
@@ -902,8 +797,7 @@
     "capital": "Moroni",
     "region": "Africa",
     "difficulty": 57,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pg",
@@ -911,8 +805,7 @@
     "capital": "Port Moresby",
     "region": "Oceania",
     "difficulty": 36,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ke",
@@ -920,8 +813,7 @@
     "capital": "Nairobi",
     "region": "Africa",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "vn",
@@ -929,8 +821,7 @@
     "capital": "Hanoi",
     "region": "Asia",
     "difficulty": 24,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "vu",
@@ -938,8 +829,7 @@
     "capital": "Port Vila",
     "region": "Oceania",
     "difficulty": 56,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gw",
@@ -947,8 +837,7 @@
     "capital": "Bissau",
     "region": "Africa",
     "difficulty": 52,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ug",
@@ -956,8 +845,7 @@
     "capital": "Kampala",
     "region": "Africa",
     "difficulty": 39,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "uz",
@@ -965,8 +853,7 @@
     "capital": "Tashkent",
     "region": "Asia",
     "difficulty": 34,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "py",
@@ -974,8 +861,7 @@
     "capital": "Asunción",
     "region": "Americas",
     "difficulty": 23,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ca",
@@ -983,8 +869,7 @@
     "capital": "Ottawa",
     "region": "Americas",
     "difficulty": 6,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "th",
@@ -992,8 +877,7 @@
     "capital": "Bangkok",
     "region": "Asia",
     "difficulty": 24,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "at",
@@ -1001,14 +885,7 @@
     "capital": "Vienna",
     "region": "Europe",
     "difficulty": 21,
-    "previousGuesses": [],
-    "hints": [
-      {
-        "condition": "latvia",
-        "text": "Latvia and Austria have somewhat similar flags. Latvia's flag has a less satured red colour. The white stripe in the middle is also thinner for Latvia's flag. ",
-        "flags": ["ad", "md"]
-      }
-    ]
+    "previousGuesses": []
   },
   {
     "code": "bh",
@@ -1016,8 +893,7 @@
     "capital": "Manama",
     "region": "Asia",
     "difficulty": 46,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "np",
@@ -1025,8 +901,7 @@
     "capital": "Kathmandu",
     "region": "Asia",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "dz",
@@ -1034,8 +909,7 @@
     "capital": "Algiers",
     "region": "Africa",
     "difficulty": 30,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kz",
@@ -1043,8 +917,7 @@
     "capital": "Nur-Sultan",
     "region": "Asia",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "la",
@@ -1052,8 +925,7 @@
     "capital": "Vientiane",
     "region": "Asia",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "xk",
@@ -1061,8 +933,7 @@
     "capital": "Pristina",
     "region": "Europe",
     "difficulty": 44,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ci",
@@ -1070,8 +941,7 @@
     "capital": "Yamoussoukro",
     "region": "Africa",
     "difficulty": 38,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "td",
@@ -1079,8 +949,7 @@
     "capital": "N'Djamena",
     "region": "Africa",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tm",
@@ -1088,8 +957,7 @@
     "capital": "Ashgabat",
     "region": "Asia",
     "difficulty": 38,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "br",
@@ -1097,8 +965,7 @@
     "capital": "Brasília",
     "region": "Americas",
     "difficulty": 9,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ro",
@@ -1106,8 +973,7 @@
     "capital": "Bucharest",
     "region": "Europe",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ch",
@@ -1115,8 +981,7 @@
     "capital": "Bern",
     "region": "Europe",
     "difficulty": 21,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "st",
@@ -1124,8 +989,7 @@
     "capital": "São Tomé",
     "region": "Africa",
     "difficulty": 60,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pk",
@@ -1133,8 +997,7 @@
     "capital": "Islamabad",
     "region": "Asia",
     "difficulty": 20,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tr",
@@ -1142,8 +1005,7 @@
     "capital": "Ankara",
     "region": "Asia",
     "difficulty": 15,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sr",
@@ -1151,8 +1013,7 @@
     "capital": "Paramaribo",
     "region": "Americas",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sg",
@@ -1160,8 +1021,7 @@
     "capital": "Singapore",
     "region": "Asia",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tz",
@@ -1169,8 +1029,7 @@
     "capital": "Dodoma",
     "region": "Africa",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "fm",
@@ -1178,8 +1037,7 @@
     "capital": "Palikir",
     "region": "Oceania",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sk",
@@ -1187,8 +1045,7 @@
     "capital": "Bratislava",
     "region": "Europe",
     "difficulty": 28,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "al",
@@ -1196,8 +1053,7 @@
     "capital": "Tirana",
     "region": "Europe",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "in",
@@ -1205,8 +1061,7 @@
     "capital": "New Delhi",
     "region": "Asia",
     "difficulty": 11,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ni",
@@ -1214,8 +1069,7 @@
     "capital": "Managua",
     "region": "Americas",
     "difficulty": 38,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "jp",
@@ -1223,8 +1077,7 @@
     "capital": "Tokyo",
     "region": "Asia",
     "difficulty": 11,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ar",
@@ -1232,8 +1085,7 @@
     "capital": "Buenos Aires",
     "region": "Americas",
     "difficulty": 13,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cv",
@@ -1241,8 +1093,7 @@
     "capital": "Praia",
     "region": "Africa",
     "difficulty": 54,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "md",
@@ -1250,14 +1101,7 @@
     "capital": "Chișinău",
     "region": "Europe",
     "difficulty": 41,
-    "previousGuesses": [],
-    "hints": [
-      {
-        "condition": "andorra",
-        "text": "Andorra and Moldova have similar flags. Both flags have their coat of arms in the center of the flag. Andorra's coat of arms is a shield, while Moldova's coat of arms is an eagle. Moldova's flag is also wider, and has a lighter shade of blue.",
-        "flags": ["ad", "md"]
-      }
-    ]
+    "previousGuesses": []
   },
   {
     "code": "pa",
@@ -1265,8 +1109,7 @@
     "capital": "Panama City",
     "region": "Americas",
     "difficulty": 26,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "to",
@@ -1274,8 +1117,7 @@
     "capital": "Nuku'alofa",
     "region": "Oceania",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "vc",
@@ -1283,8 +1125,7 @@
     "capital": "Kingstown",
     "region": "Americas",
     "difficulty": 53,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cz",
@@ -1292,8 +1133,7 @@
     "capital": "Prague",
     "region": "Europe",
     "difficulty": 26,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mg",
@@ -1301,8 +1141,7 @@
     "capital": "Antananarivo",
     "region": "Africa",
     "difficulty": 19,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "be",
@@ -1310,8 +1149,7 @@
     "capital": "Brussels",
     "region": "Europe",
     "difficulty": 22,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "hu",
@@ -1319,8 +1157,7 @@
     "capital": "Budapest",
     "region": "Europe",
     "difficulty": 27,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "do",
@@ -1328,8 +1165,7 @@
     "capital": "Santo Domingo",
     "region": "Americas",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "eg",
@@ -1337,8 +1173,7 @@
     "capital": "Cairo",
     "region": "Africa",
     "difficulty": 14,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "nr",
@@ -1346,8 +1181,7 @@
     "capital": "Yaren",
     "region": "Oceania",
     "difficulty": 59,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cm",
@@ -1355,8 +1189,7 @@
     "capital": "Yaoundé",
     "region": "Africa",
     "difficulty": 44,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "jm",
@@ -1364,8 +1197,7 @@
     "capital": "Kingston",
     "region": "Americas",
     "difficulty": 26,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sa",
@@ -1373,8 +1205,7 @@
     "capital": "Riyadh",
     "region": "Asia",
     "difficulty": 22,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "az",
@@ -1382,8 +1213,7 @@
     "capital": "Baku",
     "region": "Asia",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "jo",
@@ -1391,8 +1221,7 @@
     "capital": "Amman",
     "region": "Asia",
     "difficulty": 30,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lt",
@@ -1400,8 +1229,7 @@
     "capital": "Vilnius",
     "region": "Europe",
     "difficulty": 28,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gq",
@@ -1409,8 +1237,7 @@
     "capital": "Malabo",
     "region": "Africa",
     "difficulty": 51,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cr",
@@ -1418,8 +1245,7 @@
     "capital": "San José",
     "region": "Americas",
     "difficulty": 32,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cu",
@@ -1427,8 +1253,7 @@
     "capital": "Havana",
     "region": "Americas",
     "difficulty": 20,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "dm",
@@ -1436,8 +1261,7 @@
     "capital": "Roseau",
     "region": "Americas",
     "difficulty": 31,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cf",
@@ -1445,8 +1269,7 @@
     "capital": "Bangui",
     "region": "Africa",
     "difficulty": 40,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "na",
@@ -1454,8 +1277,7 @@
     "capital": "Windhoek",
     "region": "Africa",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "rs",
@@ -1463,8 +1285,7 @@
     "capital": "Belgrade",
     "region": "Europe",
     "difficulty": 34,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kw",
@@ -1472,8 +1293,7 @@
     "capital": "Kuwait City",
     "region": "Asia",
     "difficulty": 39,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ne",
@@ -1481,8 +1301,7 @@
     "capital": "Niamey",
     "region": "Africa",
     "difficulty": 21,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sm",
@@ -1490,8 +1309,7 @@
     "capital": "City of San Marino",
     "region": "Europe",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ua",
@@ -1499,8 +1317,7 @@
     "capital": "Kyiv",
     "region": "Europe",
     "difficulty": 22,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bt",
@@ -1508,8 +1325,7 @@
     "capital": "Thimphu",
     "region": "Asia",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ye",
@@ -1517,8 +1333,7 @@
     "capital": "Sana'a",
     "region": "Asia",
     "difficulty": 28,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ve",
@@ -1526,8 +1341,7 @@
     "capital": "Caracas",
     "region": "Americas",
     "difficulty": 28,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ma",
@@ -1535,8 +1349,7 @@
     "capital": "Rabat",
     "region": "Africa",
     "difficulty": 23,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bn",
@@ -1544,8 +1357,7 @@
     "capital": "Bandar Seri Begawan",
     "region": "Asia",
     "difficulty": 50,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "sn",
@@ -1553,8 +1365,7 @@
     "capital": "Dakar",
     "region": "Africa",
     "difficulty": 44,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ss",
@@ -1562,8 +1373,7 @@
     "capital": "Juba",
     "region": "Africa",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "nl",
@@ -1571,8 +1381,7 @@
     "capital": "Amsterdam",
     "region": "Europe",
     "difficulty": 22,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "li",
@@ -1580,8 +1389,7 @@
     "capital": "Vaduz",
     "region": "Europe",
     "difficulty": 42,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ad",
@@ -1589,14 +1397,7 @@
     "capital": "Andorra la Vella",
     "region": "Europe",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": [
-      {
-        "condition": "moldova",
-        "text": "Andorra and Moldova have similar flags. Both flags have their coat of arms in the center of the flag. Andorra's coat of arms is a shield, while Moldova's coat of arms is an eagle. Moldova's flag is also wider, and has a lighter shade of blue.",
-        "flags": ["ad", "md"]
-      }
-    ]
+    "previousGuesses": []
   },
   {
     "code": "lb",
@@ -1604,8 +1405,7 @@
     "capital": "Beirut",
     "region": "Asia",
     "difficulty": 38,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lv",
@@ -1613,14 +1413,7 @@
     "capital": "Riga",
     "region": "Europe",
     "difficulty": 28,
-    "previousGuesses": [],
-    "hints": [
-      {
-        "condition": "austria",
-        "text": "Latvia and Austria have somewhat similar flags. Latvia's flag has a less satured red colour. The white stripe in the middle is also thinner for Latvia's flag. ",
-        "flags": ["ad", "md"]
-      }
-    ]
+    "previousGuesses": []
   },
   {
     "code": "mk",
@@ -1628,8 +1421,7 @@
     "capital": "Skopje",
     "region": "Europe",
     "difficulty": 39,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "pt",
@@ -1637,8 +1429,7 @@
     "capital": "Lisbon",
     "region": "Europe",
     "difficulty": 13,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "mx",
@@ -1646,8 +1437,7 @@
     "capital": "Mexico City",
     "region": "Americas",
     "difficulty": 7,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bs",
@@ -1655,8 +1445,7 @@
     "capital": "Nassau",
     "region": "Americas",
     "difficulty": 34,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "cn",
@@ -1664,8 +1453,7 @@
     "capital": "Beijing",
     "region": "Asia",
     "difficulty": 9,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kg",
@@ -1673,8 +1461,7 @@
     "capital": "Bishkek",
     "region": "Asia",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gm",
@@ -1682,8 +1469,7 @@
     "capital": "Banjul",
     "region": "Africa",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tl",
@@ -1691,8 +1477,7 @@
     "capital": "Dili",
     "region": "Asia",
     "difficulty": 53,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "er",
@@ -1700,8 +1485,7 @@
     "capital": "Asmara",
     "region": "Africa",
     "difficulty": 48,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "tj",
@@ -1709,8 +1493,7 @@
     "capital": "Dushanbe",
     "region": "Asia",
     "difficulty": 45,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lk",
@@ -1718,8 +1501,7 @@
     "capital": "Sri Jayawardenepura Kotte",
     "region": "Asia",
     "difficulty": 30,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "bg",
@@ -1727,8 +1509,7 @@
     "capital": "Sofia",
     "region": "Europe",
     "difficulty": 34,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ls",
@@ -1736,8 +1517,7 @@
     "capital": "Maseru",
     "region": "Africa",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "kr",
@@ -1745,8 +1525,7 @@
     "capital": "Seoul",
     "region": "Asia",
     "difficulty": 15,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "so",
@@ -1754,8 +1533,7 @@
     "capital": "Mogadishu",
     "region": "Africa",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "gh",
@@ -1763,8 +1541,7 @@
     "capital": "Accra",
     "region": "Africa",
     "difficulty": 35,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "lr",
@@ -1772,8 +1549,7 @@
     "capital": "Monrovia",
     "region": "Africa",
     "difficulty": 43,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ae",
@@ -1781,8 +1557,7 @@
     "capital": "Abu Dhabi",
     "region": "Asia",
     "difficulty": 27,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "hn",
@@ -1790,8 +1565,7 @@
     "capital": "Tegucigalpa",
     "region": "Americas",
     "difficulty": 33,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   },
   {
     "code": "ec",
@@ -1799,7 +1573,6 @@
     "capital": "Quito",
     "region": "Americas",
     "difficulty": 29,
-    "previousGuesses": [],
-    "hints": []
+    "previousGuesses": []
   }
 ]
