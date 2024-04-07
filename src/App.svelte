@@ -57,7 +57,6 @@
       let storedGuesses = localStorage.getItem(country.code);
       if (storedGuesses) {
         country.previousGuesses = JSON.parse(storedGuesses);
-        console.log(country.name + ' | ' + country.previousGuesses);
       }
     });
   }
@@ -86,7 +85,9 @@
   </div>
 
   <div id="gamediv">
-    <img class="big" src={`Flags/${currentCountry.code.toLowerCase()}.svg`} alt="flag"/>
+    <figure class="big">
+      <img class="flag" src={`Flags/${currentCountry.code.toLowerCase()}.svg`} alt="unknown flag"/>
+    </figure>
     <br/>
     <br/>
     <form on:submit={MakeGuess}>
@@ -107,12 +108,16 @@
             <div class="resultitem">
               <h2 class="response correct">Correct country:</h2>
               <h3 class="response correct">{lastGuess.country}</h3>
-              <img class="mid" src={`Flags/${lastGuess.countryCode.toLowerCase()}.svg`} alt="flag"/>
+              <figure class="mid">
+                <img class="flag" src={`Flags/${lastGuess.countryCode.toLowerCase()}.svg`} alt="flag"/>
+              </figure>
             </div>
             <div class="resultitem">
               <h2 class="response incorrect">Your guess:</h2>
               <h3 class="response incorrect">{lastGuess.guess}</h3>
-              <img class="mid" src={`Flags/${countries.find(c => c.name.toLowerCase() === lastGuess?.guess.toLowerCase())?.code}.svg`} alt="flag"/>
+              <figure class="mid">
+                <img class="flag" src={`Flags/${countries.find(c => c.name.toLowerCase() === lastGuess?.guess.toLowerCase())?.code}.svg`} alt="flag"/>
+              </figure>
             </div>
           </div>
 
@@ -127,7 +132,7 @@
 </main>
 
 
-<style>
+<style scoped>
   #gamediv {
   display: flex;
   flex-direction: column;
@@ -178,19 +183,5 @@
   flex-direction: column;
   align-items: center;
   margin: 1%;
-}
-
-img.big {
-  max-height: 30vh;
-  max-width: 80vw;
-  min-height: 20vh;
-  min-width: 60vh;
-}
-
-img.mid {
-  max-height: 20vh;
-  max-width: 40vw;
-  min-height: 10vh;
-  min-width: 30vh;
 }
 </style>

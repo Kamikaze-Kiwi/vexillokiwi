@@ -73,10 +73,6 @@ input {
   color: #fff;
 }
 
-* {
-  overflow: hidden;
-}
-
 .spin {
   animation: spin 1s;
 }
@@ -92,4 +88,43 @@ h1, h2, h3, h4, h5, h6 {
   to {
       transform:rotate(180deg);
   }
+}
+
+.big {
+  max-height: 30vh;
+  max-width: 80vw;
+  min-height: 20vh;
+  min-width: 60vw;
+  width: fit-content;
+  margin: 0;
+}
+
+.mid {
+  max-height: 20vh;
+  max-width: 40vw;
+  min-height: 10vh;
+  min-width: 30vw;
+  margin: 0;
+}
+
+/* portrait */
+@media (orientation: portrait) {
+  .big {
+    max-height: 35vh;
+    max-width: 95vw;
+    min-height: 15vh;
+    min-width: 80vw;
+  }
+
+  .mid {
+    max-height: 25vh;
+    max-width: 47.5vw;
+    min-height: 10vh;
+    min-width: 40vw;
+  }
+}
+
+.flag {
+  max-height: inherit;
+  max-width: inherit;
 }
