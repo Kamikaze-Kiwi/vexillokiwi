@@ -48,8 +48,14 @@
 
   // Pick a random country and reset the guess
   function NextCountry() {
-    let randomIndex = Math.floor(Math.random() * (countries.length - 1) + 1);
-    currentCountry = countries[randomIndex];
+    let validCountries = countries.filter(c => settings.continents.Africa && c.region === 'Africa' ||
+      settings.continents.Asia && c.region === 'Asia' ||
+      settings.continents.Europe && c.region === 'Europe' ||
+      settings.continents.Americas && c.region === 'Americas' ||
+      settings.continents.Oceania && c.region === 'Oceania');
+
+    let randomIndex = Math.floor(Math.random() * validCountries.length);
+    currentCountry = validCountries[randomIndex];
     currentGuess = '';
   };
 
@@ -84,10 +90,18 @@
     SpinSettingsGear();
 
     if (settingsMenu.classList.contains('expand')){ // Close menu
+
+      // Check if at least one continent is selected
+      if (!settings.continents.Africa && !settings.continents.Asia && !settings.continents.Europe && !settings.continents.Americas && !settings.continents.Oceania) {
+        alert('You must select at least one continent to play the game.')
+        return;
+      }
+
       settingsMenu.classList.remove('expand');
       setTimeout(() => { settingsMenu.classList.add('collapse'); }, 1);
       settingsMenuExpanded = false;
       SaveSettings();
+      NextCountry();
 
       settingsMenu.style.overflowY = 'hidden';
     } else { // Open menu
