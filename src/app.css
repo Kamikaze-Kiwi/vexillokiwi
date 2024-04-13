@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 0;
   }
   to {
-    height: 40vh;
+    height: 60vh;
     width: 30vw;
     padding: 0.6em 1.2em;
   }
@@ -186,5 +186,27 @@ h1, h2, h3, h4, h5, h6 {
 
 input[type="checkbox"] {
   cursor: pointer;
-  margin-right: 0.6em;
+  margin-right: 0.6rem;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  background-color: #1a1a1a;
+  font-size: 0px;
+  position: relative;
+
+  transition: background-color 0.25s;
+
+
+  &:checked {
+    background-image: url('checkmark.svg');
+    background-size: 0.9rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #539987;
+  }
 }

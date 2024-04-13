@@ -81,15 +81,19 @@
   function ToggleSettings() {
     SpinSettingsGear();
 
-    if (settingsMenu.classList.contains('expand')){
+    if (settingsMenu.classList.contains('expand')){ // Close menu
       settingsMenu.classList.remove('expand');
       setTimeout(() => { settingsMenu.classList.add('collapse'); }, 1);
       settingsMenuExpanded = false;
       SaveSettings();
-    } else {
+
+      settingsMenu.style.overflowY = 'hidden';
+    } else { // Open menu
       settingsMenu.classList.remove('collapse');
       setTimeout(() => { settingsMenu.classList.add('expand'); }, 1);
       settingsMenuExpanded = true;
+
+      setTimeout(() => { settingsMenu.style.overflowY = 'auto' }, 500);
     }
   }
 
@@ -150,27 +154,28 @@
             Allow hints
           </label>
         </div>
+        <br/>
         <div class="settingsitem">
           <h2>Continents</h2>
-          <label>
-            Africa
-            <input bind:checked={settings.continents.Africa} type="checkbox" />
-          </label>
-          <label>
-            Asia
-            <input bind:checked={settings.continents.Asia} type="checkbox" />
-          </label>
-          <label>
-            Europe
-            <input bind:checked={settings.continents.Europe} type="checkbox" />
-          </label>
-          <label>
-            Americas
+          <label class="checkboxcontainer">
             <input bind:checked={settings.continents.Americas} type="checkbox" />
+            Americas ({countries.filter(c => c.region === 'Americas').length} countries)
           </label>
-          <label>
-            Oceania
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.continents.Africa} type="checkbox" />
+            Africa ({countries.filter(c => c.region === 'Africa').length} countries)
+          </label>
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.continents.Asia} type="checkbox" />
+            Asia ({countries.filter(c => c.region === 'Asia').length} countries)
+          </label>
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.continents.Europe} type="checkbox" />
+            Europe ({countries.filter(c => c.region === 'Europe').length} countries)
+          </label>
+          <label class="checkboxcontainer">
             <input bind:checked={settings.continents.Oceania} type="checkbox" />
+            Oceania ({countries.filter(c => c.region === 'Oceania').length} countries)
           </label>
         </div>
       </div>
@@ -265,6 +270,7 @@
   overflow: hidden;
   border-radius: 8px;
   padding: 0.6em 1.2em;
+  overflow-y: hidden;
 }
 
 .correct {
