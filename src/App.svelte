@@ -10,7 +10,17 @@
   let settingsMenu: HTMLDivElement;
   let settingsMenuExpanded = false;
 
-  
+  let settings: {
+    saveGuesses: boolean,
+    allowHints: boolean,
+    continents: {
+      Africa: boolean,
+      Asia: boolean,
+      Europe: boolean,
+      Americas: boolean,
+      Oceania: boolean
+    }
+  }
 
   let lastGuess : {
     correct: boolean,
@@ -20,6 +30,7 @@
   } | undefined = undefined;
 
   LoadGuesses();
+  LoadSettings();
   NextCountry();
 
   // Make a guess for the current flag
@@ -74,6 +85,7 @@
       settingsMenu.classList.remove('expand');
       setTimeout(() => { settingsMenu.classList.add('collapse'); }, 1);
       settingsMenuExpanded = false;
+      SaveSettings();
     } else {
       settingsMenu.classList.remove('collapse');
       setTimeout(() => { settingsMenu.classList.add('expand'); }, 1);
@@ -84,6 +96,29 @@
   function SpinSettingsGear() {
     settingsSpan.classList.remove('spin');
     setTimeout(() => { settingsSpan.classList.add('spin'); }, 1);
+  }
+
+  function LoadSettings() {
+    let storedSettings = localStorage.getItem('settings');
+    if (storedSettings) {
+      settings = JSON.parse(storedSettings);
+    } else {
+      settings = {
+        saveGuesses: true,
+        allowHints: true,
+        continents: {
+          Africa: true,
+          Asia: true,
+          Europe: true,
+          Americas: true,
+          Oceania: true
+        }
+      }
+    }
+  }
+
+  function SaveSettings() {
+    localStorage.setItem('settings', JSON.stringify(settings));
   }
 </script>
 
@@ -104,9 +139,38 @@
       <div id="settingsmenu" bind:this={settingsMenu} style="height: 0px; padding: 0 0; border: 0">
         <h1>Settings</h1>
         <div class="settingsitem">
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.saveGuesses} type="checkbox" />
+            Save your guesses
+          </label>
+        </div>
+        <div class="settingsitem">
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.allowHints} type="checkbox" />
+            Allow hints
+          </label>
+        </div>
+        <div class="settingsitem">
+          <h2>Continents</h2>
           <label>
-            Show correct answers
-            <input type="checkbox" />
+            Africa
+            <input bind:checked={settings.continents.Africa} type="checkbox" />
+          </label>
+          <label>
+            Asia
+            <input bind:checked={settings.continents.Asia} type="checkbox" />
+          </label>
+          <label>
+            Europe
+            <input bind:checked={settings.continents.Europe} type="checkbox" />
+          </label>
+          <label>
+            Americas
+            <input bind:checked={settings.continents.Americas} type="checkbox" />
+          </label>
+          <label>
+            Oceania
+            <input bind:checked={settings.continents.Oceania} type="checkbox" />
           </label>
         </div>
       </div>
@@ -194,7 +258,7 @@
 }
 
 #settingsmenu {
-  background-color: #0f0f0f;
+  background-color: #121212;
   position: absolute;
   z-index: 1;
   top: 100%;

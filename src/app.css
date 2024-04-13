@@ -166,3 +166,25 @@ h1, h2, h3, h4, h5, h6 {
   max-height: inherit;
   max-width: inherit;
 }
+
+.checkboxcontainer {
+  border-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #1a1a1a;
+  padding: 0.6em 1.2em;
+  display: flex;
+  margin: 0.6em 0;
+  user-select: none;
+}
+
+.checkboxcontainer:has(input:checked) {
+  border-color: #539987;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin-right: 0.6em;
+}
