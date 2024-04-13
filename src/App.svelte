@@ -66,7 +66,9 @@
       guess: currentGuess
     };
 
-    localStorage.setItem(currentCountry.code, JSON.stringify(currentCountry.previousGuesses));
+    if (settings.saveGuesses) {
+      localStorage.setItem(currentCountry.code, JSON.stringify(currentCountry.previousGuesses));
+    }
   }
 
   function LoadGuesses() {
@@ -124,6 +126,17 @@
   function SaveSettings() {
     localStorage.setItem('settings', JSON.stringify(settings));
   }
+
+  function DeleteLocalStorage() {
+    // Confirm deletion
+    if (!confirm('Are you sure you want to delete all data? This will delete all your previous guesses, which are used to track your progress and show flags you struggle with more often. This can not be undone.')) {
+      return;
+    }
+
+    localStorage.clear();
+    localStorage.setItem('settings', JSON.stringify(settings));
+    LoadGuesses();
+  }
 </script>
 
 <main>
@@ -177,6 +190,10 @@
             <input bind:checked={settings.continents.Oceania} type="checkbox" />
             Oceania ({countries.filter(c => c.region === 'Oceania').length} countries)
           </label>
+        </div>
+        <br/>
+        <div class="settingsitem">
+          <button class="danger" on:click={DeleteLocalStorage}>Delete all data</button>
         </div>
       </div>
     </div>
