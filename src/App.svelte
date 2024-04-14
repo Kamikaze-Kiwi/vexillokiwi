@@ -5,6 +5,7 @@
 
   let currentCountry = countries[0];
   let currentGuess = '';
+  let lastCountries: string[] = [];
 
   let settingsSpan: HTMLSpanElement;
   let settingsMenu: HTMLDivElement;
@@ -54,9 +55,16 @@
       settings.continents.Americas && c.region === 'Americas' ||
       settings.continents.Oceania && c.region === 'Oceania');
 
+    validCountries = validCountries.filter(c => !lastCountries.includes(c.code));
+
     let randomIndex = Math.floor(Math.random() * validCountries.length);
     currentCountry = validCountries[randomIndex];
     currentGuess = '';
+
+    lastCountries.push(currentCountry.code);
+    if (lastCountries.length > 5) {
+      lastCountries.shift();
+    }
   };
 
   function SaveGuess(correct: boolean) {
