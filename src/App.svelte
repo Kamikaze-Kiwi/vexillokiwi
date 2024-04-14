@@ -14,6 +14,7 @@
   let settings: {
     saveGuesses: boolean,
     allowHints: boolean,
+    selectableCountries: boolean,
     continents: {
       Africa: boolean,
       Asia: boolean,
@@ -150,6 +151,7 @@
       settings = {
         saveGuesses: true,
         allowHints: true,
+        selectableCountries: true,
         continents: {
           Africa: true,
           Asia: true,
@@ -208,6 +210,12 @@
             Allow hints
           </label>
         </div>
+        <div class="settingsitem">
+          <label class="checkboxcontainer">
+            <input bind:checked={settings.selectableCountries} type="checkbox" />
+            Autocomplete country names
+          </label>
+        </div>
         <br/>
         <div class="settingsitem">
           <h2>Continents</h2>
@@ -248,7 +256,17 @@
     <br/>
     <br/>
     <form on:submit={MakeGuess}>
-      <input style="margin-bottom: 1vh;" type="text" bind:value={currentGuess} placeholder="Your guess..." />
+      {#if settings.selectableCountries}
+        <input style="margin-bottom: 1vh;" type="text" bind:value={currentGuess} placeholder="Your guess..." list="countries"/>
+        <datalist id="countries">
+          {#each countries as country}
+            <option value={country.name}/>
+          {/each}
+        </datalist>
+      {:else}
+        <input style="margin-bottom: 1vh;" type="text" bind:value={currentGuess} placeholder="Your guess..."/>
+      {/if}
+      
       <button>Make guess</button>
     </form>
     <span>
