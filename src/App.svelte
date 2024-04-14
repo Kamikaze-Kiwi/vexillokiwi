@@ -49,13 +49,29 @@
 
   // Pick a random country and reset the guess
   function NextCountry() {
+    // Exclude countries that belong to continents that are not selected
     let validCountries = countries.filter(c => settings.continents.Africa && c.region === 'Africa' ||
       settings.continents.Asia && c.region === 'Asia' ||
       settings.continents.Europe && c.region === 'Europe' ||
       settings.continents.Americas && c.region === 'Americas' ||
       settings.continents.Oceania && c.region === 'Oceania');
 
+    // Exclude countries that appeared in the last 5 generations
     validCountries = validCountries.filter(c => !lastCountries.includes(c.code));
+
+    // Decrease chance of countries that have been guessed correctly many times
+    let countryRarity = Math.floor(Math.random() * maxStoredGuesses);
+    while (true) {
+      let selectedCountries = validCountries.filter(c => 5 - c.previousGuesses.filter(g => g).length >= countryRarity);
+      if (selectedCountries.length >= 1) {
+        validCountries = selectedCountries;
+        break;
+      }
+      else {
+        countryRarity--;
+        if (countryRarity < 0) break;
+      }
+    } 
 
     let randomIndex = Math.floor(Math.random() * validCountries.length);
     currentCountry = validCountries[randomIndex];
@@ -157,7 +173,10 @@
 
     localStorage.clear();
     localStorage.setItem('settings', JSON.stringify(settings));
-    LoadGuesses();
+    
+    countries.forEach((country) => {
+      country.previousGuesses = [];
+    });
   }
 </script>
 
