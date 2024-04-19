@@ -1,19 +1,11 @@
 [
   {
-    "code": "EX",
-    "name": "Example",
-    "capital": "Example City",
-    "region": "North Examplia",
-    "difficulty": 100,
-    "previousGuesses": [true, false, true, true, false]
-  },
-  {
     "code": "gd",
     "name": "Grenada",
     "capital": "St. George's",
     "region": "Americas",
     "difficulty": 52,
-    "previousGuesses": []
+    "previousGuesses": [] 
   },
   {
     "code": "my",

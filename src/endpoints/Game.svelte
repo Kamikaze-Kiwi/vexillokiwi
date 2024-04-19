@@ -1,5 +1,8 @@
 <script lang="ts">
-  import countries from './countries.json';
+  import countriesJson from '../countries.json';
+  import type { CountryType } from '../country';
+
+  let countries = countriesJson as CountryType[];
 
   const maxStoredGuesses = 5;
 
@@ -240,7 +243,6 @@
             Oceania ({countries.filter(c => c.region === 'Oceania').length} countries)
           </label>
         </div>
-        <br/>
         <div class="settingsitem">
           <button class="danger" on:click={DeleteLocalStorage}>Delete all data</button>
         </div>
