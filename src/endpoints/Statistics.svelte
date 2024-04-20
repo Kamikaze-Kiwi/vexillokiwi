@@ -30,6 +30,10 @@
 <main>
     <h1>{CountriesWhereCorrect(5).length} / {countries.length} perfected countries (last 5 guesses correct)!</h1>
 
+    <h2>The number shows how many guesses ago this was made. For example; 1 is the latest guess while 5 is 5 guesses ago.</h2>
+    <h3>A ❔ means that there is no recorded guess.</h3>
+    <a href="/">Back to the game</a>
+
     <table>
         <thead>
             <tr>
@@ -54,11 +58,6 @@
                     <td>❔</td>
                   {/if}
                 {/each}
-
-
-                <!-- {#each country.previousGuesses as guess}
-                <td>{guess ? '✅' : '❌'}</td>
-                {/each} -->
             </tr>
             {/each}
         </tbody>

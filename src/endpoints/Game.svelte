@@ -16,7 +16,6 @@
 
   let settings: {
     saveGuesses: boolean,
-    allowHints: boolean,
     selectableCountries: boolean,
     continents: {
       Africa: boolean,
@@ -153,7 +152,6 @@
     } else {
       settings = {
         saveGuesses: true,
-        allowHints: true,
         selectableCountries: true,
         continents: {
           Africa: true,
@@ -209,15 +207,12 @@
         </div>
         <div class="settingsitem">
           <label class="checkboxcontainer">
-            <input bind:checked={settings.allowHints} type="checkbox" />
-            Allow hints
-          </label>
-        </div>
-        <div class="settingsitem">
-          <label class="checkboxcontainer">
             <input bind:checked={settings.selectableCountries} type="checkbox" />
             Autocomplete country names
           </label>
+        </div>
+        <div class="settingsitem">
+          <a href="/statistics">View your statistics</a>
         </div>
         <br/>
         <div class="settingsitem">
@@ -243,6 +238,7 @@
             Oceania ({countries.filter(c => c.region === 'Oceania').length} countries)
           </label>
         </div>
+        <br/>
         <div class="settingsitem">
           <button class="danger" on:click={DeleteLocalStorage}>Delete all data</button>
         </div>
