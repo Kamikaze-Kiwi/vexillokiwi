@@ -19,3 +19,12 @@ To build the project yourself, run:
 npm install
 npm run dev
 ```
+
+<hr>
+
+To publish the project to GitHub pages, run:
+```
+npm install
+npm run build
+npm run deploy
+```
