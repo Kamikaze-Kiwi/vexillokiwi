@@ -221,7 +221,7 @@
           </label>
         </div>
         <div class="settingsitem">
-          <a href="/statistics">View your statistics</a>
+          <a href="statistics">View your statistics</a>
         </div>
         <br/>
         <div class="settingsitem">

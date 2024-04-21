@@ -6,7 +6,7 @@ const path = new URL(window.location.href).pathname;
 const appTarget = document.getElementById('app')!;
 let app;
 
-if (path === '/stats' || path === '/statistics') {
+if (path.endsWith('/stats') || path.endsWith('/statistics')) {
   app = new Statistics({
     target: appTarget
   });
