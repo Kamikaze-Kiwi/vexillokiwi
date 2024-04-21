@@ -10,6 +10,10 @@ All flag renders have been taken from https://github.com/hampusborgos/country-fl
 
 <hr>
 
+Includes all 193 UN member states and 2 observer states, as well as Taiwan.
+
+<hr>
+
 To build the project yourself, run: 
 ```
 npm install
