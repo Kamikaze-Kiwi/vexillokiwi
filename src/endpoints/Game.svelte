@@ -41,7 +41,7 @@
   function MakeGuess(e: Event) {
     e.preventDefault();
 
-    if (currentGuess.toLowerCase() === currentCountry.name.toLowerCase()) {
+    if (currentGuess.toLowerCase() === currentCountry.name.toLowerCase() || currentCountry.altNames?.map(n => n.toLowerCase()).includes(currentGuess.toLowerCase())) {
       SaveGuess(true);
     } else {
       SaveGuess(false);
@@ -111,6 +111,15 @@
         country.previousGuesses = JSON.parse(storedGuesses);
       }
     });
+  }
+
+  function GetCountryByName(name: string) {
+    let country = countries.find(c => c.name.toLowerCase() === name.toLowerCase());
+    if (!country) {
+      country = countries.find(c => c.altNames?.map(n => n.toLowerCase()).includes(name.toLowerCase()));
+    }
+
+    return country;
   }
 
   function ToggleSettings() {
@@ -275,7 +284,7 @@
           <h2 class="response correct">Correct! That was <b>{lastGuess.country}</b>.</h2>
 
         <!-- If the guess was incorrect, but another country -->
-        {:else if !lastGuess.correct && countries.find(c => c.name.toLowerCase() === lastGuess?.guess.toLowerCase())}
+        {:else if !lastGuess.correct && GetCountryByName(lastGuess.guess)}
           <h2 class="response incorrect">Incorrect! That was <b>{lastGuess.country}</b>. You guessed <b>{lastGuess.guess}</b>.</h2>
           <div class="resultdivider">
             <div class="resultitem">
@@ -289,7 +298,7 @@
               <h2 class="response incorrect">Your guess:</h2>
               <h3 class="response incorrect">{lastGuess.guess}</h3>
               <figure class="mid">
-                <img class="flag" src={`Flags/${countries.find(c => c.name.toLowerCase() === lastGuess?.guess.toLowerCase())?.code}.svg`} alt="flag"/>
+                <img class="flag" src={`Flags/${GetCountryByName(lastGuess.guess)?.code}.svg`} alt="flag"/>
               </figure>
             </div>
           </div>

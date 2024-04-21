@@ -42,6 +42,10 @@
   {
     "code": "sb",
     "name": "Solomon Islands",
+    "altNames": [
+      "The Solomons",
+      "The Solomon Islands"
+    ],
     "capital": "Honiara",
     "region": "Oceania",
     "difficulty": 51,
@@ -90,6 +94,9 @@
   {
     "code": "ph",
     "name": "Philippines",
+    "altNames": [
+      "The Philippines"
+    ],
     "capital": "Manila",
     "region": "Asia",
     "difficulty": 32,
@@ -170,6 +177,9 @@
   {
     "code": "gb",
     "name": "United Kingdom",
+    "altNames": [
+      "The United Kingdom"
+    ],
     "capital": "London",
     "region": "Europe",
     "difficulty": 8,
@@ -298,6 +308,9 @@
   {
     "code": "mv",
     "name": "Maldives",
+    "altNames": [
+      "The Maldives"
+    ],
     "capital": "Malé",
     "region": "Asia",
     "difficulty": 44,
@@ -330,6 +343,9 @@
   {
     "code": "lc",
     "name": "Saint Lucia",
+    "altNames": [
+      "St. Lucia"
+    ],
     "capital": "Castries",
     "region": "Americas",
     "difficulty": 48,
@@ -393,7 +409,14 @@
   },
   {
     "code": "cd",
-    "name": "DR Congo",
+    "name": "Democratic Republic of the Congo",
+    "altNames": [
+      "The DRC",
+      "DRC",
+      "The Democratic Republic of the Congo",
+      "DR Congo",
+      "Congo-Kinshasa"
+    ],
     "capital": "Kinshasa",
     "region": "Africa",
     "difficulty": 33,
@@ -522,6 +545,10 @@
   {
     "code": "cg",
     "name": "Republic of the Congo",
+    "altNames": [
+      "The Republic of the Congo",
+      "Congo-Brazzaville"
+    ],
     "capital": "Brazzaville",
     "region": "Africa",
     "difficulty": 40,
@@ -562,6 +589,10 @@
   {
     "code": "tw",
     "name": "Taiwan",
+    "altNames": [
+      "Republic of China",
+      "ROC"
+    ],
     "capital": "Taipei",
     "region": "Asia",
     "difficulty": 32,
@@ -610,6 +641,11 @@
   {
     "code": "us",
     "name": "United States",
+    "altNames": [
+      "The United States",
+      "United States of America",
+      "The United States of America"
+    ],
     "capital": "Washington, D.C.",
     "region": "Americas",
     "difficulty": 5,
@@ -618,6 +654,9 @@
   {
     "code": "mh",
     "name": "Marshall Islands",
+    "altNames": [
+      "The Marshall Islands"
+    ],
     "capital": "Majuro",
     "region": "Oceania",
     "difficulty": 50,
@@ -730,6 +769,9 @@
   {
     "code": "kn",
     "name": "Saint Kitts and Nevis",
+    "altNames": [
+      "St. Kitts and Nevis"
+    ],
     "capital": "Basseterre",
     "region": "Americas",
     "difficulty": 49,
@@ -753,7 +795,7 @@
   },
   {
     "code": "sz",
-    "name": "Eswatini",
+    "name": "eSwatini",
     "capital": "Mbabane",
     "region": "Africa",
     "difficulty": 44,
@@ -762,6 +804,9 @@
   {
     "code": "va",
     "name": "Vatican City",
+    "altNames": [
+      "The Vatican"
+    ],
     "capital": "Vatican City",
     "region": "Europe",
     "difficulty": 27,
@@ -786,6 +831,9 @@
   {
     "code": "km",
     "name": "Comoros",
+    "altNames": [
+      "The Comoros"
+    ],
     "capital": "Moroni",
     "region": "Africa",
     "difficulty": 57,
@@ -930,6 +978,9 @@
   {
     "code": "ci",
     "name": "Ivory Coast",
+    "altNames": [
+      "Côte d'Ivoire"
+    ],
     "capital": "Yamoussoukro",
     "region": "Africa",
     "difficulty": 38,
@@ -1082,6 +1133,9 @@
   {
     "code": "cv",
     "name": "Cape Verde",
+    "altNames": [
+      "Cabo Verde"
+    ],
     "capital": "Praia",
     "region": "Africa",
     "difficulty": 54,
@@ -1114,6 +1168,9 @@
   {
     "code": "vc",
     "name": "Saint Vincent and the Grenadines",
+    "altNames": [
+      "St. Vincent and the Grenadines"
+    ],
     "capital": "Kingstown",
     "region": "Americas",
     "difficulty": 53,
@@ -1122,6 +1179,9 @@
   {
     "code": "cz",
     "name": "Czechia",
+    "altNames": [
+      "Czech Republic"
+    ],
     "capital": "Prague",
     "region": "Europe",
     "difficulty": 26,
@@ -1346,6 +1406,9 @@
   {
     "code": "bn",
     "name": "Brunei",
+    "altNames": [
+      "Brunei Darussalam"
+    ],
     "capital": "Bandar Seri Begawan",
     "region": "Asia",
     "difficulty": 50,
@@ -1369,7 +1432,10 @@
   },
   {
     "code": "nl",
-    "name": "Netherlands",
+    "name": "The Netherlands",
+    "altNames": [
+      "Netherlands"
+    ],
     "capital": "Amsterdam",
     "region": "Europe",
     "difficulty": 22,
@@ -1410,6 +1476,9 @@
   {
     "code": "mk",
     "name": "North Macedonia",
+    "altNames": [
+      "Macedonia"
+    ],
     "capital": "Skopje",
     "region": "Europe",
     "difficulty": 39,
@@ -1434,6 +1503,9 @@
   {
     "code": "bs",
     "name": "Bahamas",
+    "altNames": [
+      "The Bahamas"
+    ],
     "capital": "Nassau",
     "region": "Americas",
     "difficulty": 34,
@@ -1457,7 +1529,10 @@
   },
   {
     "code": "gm",
-    "name": "Gambia",
+    "name": "The Gambia",
+    "altNames": [
+      "Gambia"
+    ],
     "capital": "Banjul",
     "region": "Africa",
     "difficulty": 48,
