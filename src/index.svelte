@@ -200,8 +200,7 @@
 
 
 <!-- INDEX -->
-{#if !statisticsOpen}
-<main>
+<main style="display: {statisticsOpen ? 'none' : 'block'}">
   {#if settingsMenuExpanded}
    <!-- svelte-ignore a11y-click-events-have-key-events -->
    <!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -323,11 +322,8 @@
 </main>
 
 
-
-{:else}
-
-
 <!-- STATISTICS -->
+{#if statisticsOpen}
 <main style="align-items: center;">
 
   <div style="padding: 2%">
@@ -335,7 +331,7 @@
 
     <h2>The number shows how many guesses ago this was made. For example; 1 is the latest guess while 5 is 5 guesses ago.</h2>
     <h3>A '❔' means that there is no recorded guess.</h3>
-    <a href={'#'} on:click={() => statisticsOpen = false}>Back to the game</a>
+    <a href={'#'} on:click={() => {statisticsOpen = false;}}>Back to the game</a>
 
     <br/>
     <br/>
