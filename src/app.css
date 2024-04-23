@@ -288,3 +288,22 @@ input[type="checkbox"] {
 .settingsitem label {
   color: white;
 }
+
+table {
+  border-collapse: collapse;
+  width: 90vw;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+background-color: #121212;
+}
+
+tr:nth-child(even) {
+background-color: #1a1a1a;
+}

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import countriesJson from '../countries.json';
-  import type { CountryType } from '../country';
+  import countriesJson from './countries.json';
+  import type { CountryType } from './country';
 
   let countries = countriesJson as CountryType[];
 
@@ -13,6 +13,8 @@
   let settingsSpan: HTMLSpanElement;
   let settingsMenu: HTMLDivElement;
   let settingsMenuExpanded = false;
+
+  let statisticsOpen = false;
 
   let settings: {
     saveGuesses: boolean,
@@ -122,6 +124,10 @@
     return country;
   }
 
+  function CountriesWhereCorrect(amount: number) {
+      return countries.filter((country) => country.previousGuesses.filter((guess) => guess).length === amount);
+  }
+
   function ToggleSettings() {
     SpinSettingsGear();
 
@@ -192,6 +198,9 @@
   }
 </script>
 
+
+<!-- INDEX -->
+{#if !statisticsOpen}
 <main>
   {#if settingsMenuExpanded}
    <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -221,7 +230,7 @@
           </label>
         </div>
         <div class="settingsitem">
-          <a href="statistics">View your statistics</a>
+          <a href={'#'} on:click={() => statisticsOpen = true}>View your statistics</a>
         </div>
         <br/>
         <div class="settingsitem">
@@ -312,3 +321,83 @@
     </span>
   </div>
 </main>
+
+
+
+{:else}
+
+
+<!-- STATISTICS -->
+<main style="align-items: center;">
+
+  <div style="padding: 2%">
+    <h1>{CountriesWhereCorrect(5).length} / {countries.length} perfected countries (last 5 guesses correct)!</h1>
+
+    <h2>The number shows how many guesses ago this was made. For example; 1 is the latest guess while 5 is 5 guesses ago.</h2>
+    <h3>A '❔' means that there is no recorded guess.</h3>
+    <a href={'#'} on:click={() => statisticsOpen = false}>Back to the game</a>
+
+    <br/>
+    <br/>
+
+    <table style="table-layout: fixed;">
+      <thead>
+        <tr>
+          <th>Europe</th>
+          <th>Asia</th>
+          <th>Africa</th>
+          <th>Americas</th>
+          <th>Oceania</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{CountriesWhereCorrect(5).filter(c => c.region === 'Europe').length} / {countries.filter(c => c.region === 'Europe').length}</td>
+          <td>{CountriesWhereCorrect(5).filter(c => c.region === 'Asia').length} / {countries.filter(c => c.region === 'Asia').length}</td>
+          <td>{CountriesWhereCorrect(5).filter(c => c.region === 'Africa').length} / {countries.filter(c => c.region === 'Africa').length}</td>
+          <td>{CountriesWhereCorrect(5).filter(c => c.region === 'Americas').length} / {countries.filter(c => c.region === 'Americas').length}</td>
+          <td>{CountriesWhereCorrect(5).filter(c => c.region === 'Oceania').length} / {countries.filter(c => c.region === 'Oceania').length}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br/>
+    <br/>
+
+    <table>
+      <thead>
+        <tr>
+            <th>Country</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+      </thead>
+      <tbody>
+        {#each countries.sort((a, b) => {
+          let aCorrect = a.previousGuesses.filter((guess) => guess).length;
+          let bCorrect = b.previousGuesses.filter((guess) => guess).length;
+    
+          return bCorrect - aCorrect;
+        }) as country}
+        <tr>
+          <td>{country.name}</td>
+          {#each {length: 5} as _, index}
+            {#if country.previousGuesses[index] === true}
+              <td>✅</td>
+            {:else if country.previousGuesses[index] === false}
+              <td>❌</td>
+            {:else}
+              <td>❔</td>
+            {/if}
+          {/each}
+        </tr>
+        {/each}
+      </tbody>
+    </table>
+  </div>
+</main>
+
+{/if}
