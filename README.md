@@ -1,5 +1,5 @@
 # VexilloKiwi
-https://maikelhendrikx1.github.io/vexillokiwi/
+https://kamikaze-kiwi.github.io/vexillokiwi/
 
 VexilloKiwi is a website where you can learn the flags of the countries of the world!
 
