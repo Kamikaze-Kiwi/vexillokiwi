@@ -264,6 +264,8 @@
 
   </div>
 
+  <br/>
+
   <div id="gamediv">
     <figure class="big">
       <img class="flag" src={`Flags/${currentCountry.code.toLowerCase()}.svg`} alt="unknown flag"/>

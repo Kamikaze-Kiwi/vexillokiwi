@@ -301,9 +301,13 @@ th, td {
 }
 
 th {
-background-color: #121212;
+  background-color: #121212;
 }
 
 tr:nth-child(even) {
-background-color: #1a1a1a;
+  background-color: #1a1a1a;
+}
+
+br {
+  margin-bottom: 21px;
 }
